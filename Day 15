@@ -1,0 +1,29 @@
+print("Animal noises")
+print()
+
+while exit != "Y":
+  animal = input("Which animal do you want?: ")
+  if animal == "Cow" or animal == "cow":
+    print("A cow goes Moo")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Chicken" or animal == "chicken":
+    print("A chicken goes Cluck")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Sheep" or animal == "sheep":
+    print("A sheep goes Bah")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Pig" or animal == "pig":
+    print("A pig goes Oink")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Dog" or animal == "dog":
+    print("A dog goes Woof")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Cat" or animal == "cat":
+    print("A cat goes Meow")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  elif animal == "Duck" or animal == "duck":
+    print("A duck goes Quack")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
+  else:
+    print("Hmm im not sure of that animal sound")
+    exit = input("Do you want to exit? Type 'Y' if yes:  ")
